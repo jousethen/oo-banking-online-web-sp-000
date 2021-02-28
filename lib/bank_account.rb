@@ -13,7 +13,7 @@ class BankAccount
   end
   
   def display_balance
-    puts "#{@balance}"
+    puts "You balance is $#{@balance}"
   end
   
   def close_account
