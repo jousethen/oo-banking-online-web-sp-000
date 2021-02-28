@@ -15,4 +15,7 @@ class BankAccount
   def display_balance
     puts "#{@balance}"
   end
+  
+  def close_account
+  end
 end
