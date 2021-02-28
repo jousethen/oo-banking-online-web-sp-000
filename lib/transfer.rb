@@ -17,6 +17,9 @@ class Transfer
   end
   
   def execute_transaction
-    @sender
+    if @sender.balance - @amount > 0
+      @sender.balance -= @amount
+    else
+      puts
   end
 end
